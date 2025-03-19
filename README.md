@@ -1,2 +1,2 @@
 # Knowledge-Navigation
-Demo code for knowledge navigation.
+Demo code for scientific concept navigator.
