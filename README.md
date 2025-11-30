@@ -11,6 +11,11 @@ An embedding-based navigation system using extensive scientific research traject
 
 SciConNav (Scientific Concept Navigator) is a novel approach to scientific knowledge navigation that leverages extensive research trajectories from millions of scholars. The system learns concept representations through contextual learning, enabling users to explore semantic relationships, identify interdisciplinary pathways, and discover knowledge connections across 19 academic disciplines. The system offers a 3D visualization interface for interactive exploration of the scientific knowledge space.
 
+### 3D Visualization
+
+**Open in browser**:
+   Visit [https://xianshb.github.io/SciConNav](https://xiangshb.github.io/SciConNav/)
+
 ![Concept Embedding Visualization](data/concept_embedding.png)
 *SciConNav concept embedding visualization showing the spatial distribution of 64,976 scientific concepts across 19 disciplines, with clear clustering patterns for mono-disciplinary concepts and broader distribution for multi-disciplinary concepts.*
 
@@ -73,11 +78,6 @@ SciConNav employs a comprehensive pipeline from OpenAlex data processing to inte
 - **Performance**: UnrealBloomPass post-processing for enhanced visual appeal
 
 ## Quick Start
-
-### 3D Visualization
-
-**Open in browser**:
-   Visit https://xianshb.github.io/SciConNav
 
 ### Data Processing
 
