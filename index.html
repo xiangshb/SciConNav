@@ -498,7 +498,7 @@
             colorSchemes: null,
             activeDisciplines: new Set(),
             activeLevel: 'all',
-            activeScheme: 'part1', // Default to part1 scheme
+            activeScheme: 'tab20', // Default to Tab20 Palette
             viewMode: '3d',
             autoRotate: true,
             hoveredDiscipline: null,
@@ -549,7 +549,12 @@
                 
                 const dimsView = new Uint32Array(buffer, 8, n_dims);
                 state.availableDimensions = Array.from(dimsView);
-                state.activeDimension = state.availableDimensions[state.availableDimensions.length - 1]; // Default to highest dim (usually best quality)
+                // Default to 24 if available, otherwise highest dim
+                if (state.availableDimensions.includes(24)) {
+                    state.activeDimension = 24;
+                } else {
+                    state.activeDimension = state.availableDimensions[state.availableDimensions.length - 1];
+                }
                 
                 console.log(`Loaded ${n_points} points with ${n_dims} dimensions:`, state.availableDimensions);
                 
