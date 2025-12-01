@@ -213,6 +213,9 @@ If you use the SciConNav system or data in your research, please cite the follow
   title={SciConNav: Knowledge navigation through contextual learning of extensive scientific research trajectories},
   author={Xiang, Shibing and Jiang, Xin and Liu, Bing and Huang, Yurui and Tian, Chaolin and Ma, Yifang},
   journal={Journal of the Association for Information Science and Technology},
+  volume={76},
+  number={10},
+  pages={1308--1339},
   year={2025},
   publisher={Wiley Online Library}
 }
